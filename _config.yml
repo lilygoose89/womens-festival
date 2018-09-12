@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Malt Template
-url: "https://whispering-boat.cloudvent.net"
+title: Bond Women's Festival | Chiang Mai, Thailand
+url: "https://bondwomensfestival.com"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -11,20 +11,20 @@ timezone: Etc/UTC
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Event marketing template for Jekyll.
+description: Bond Women's Festival | Chiang Mai, Thailand
 author:
-  name:
+  name: Bond Women's Festival
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Malt Template
+  name: Bond Women's Festival
   links:
-    - https://github.com/CloudCannon/malt-jekyll-template
+    - https://bondwomensfestival.com
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: UTC+7
 
 permalink: pretty
 
