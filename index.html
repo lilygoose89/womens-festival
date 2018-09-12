@@ -6,10 +6,10 @@ timezone: Thailand (UTC+7)
 description: >-
   A day to celebrate women featuring workshops, performances, music, dancing and
   festival fun in magical Chiang Mai, Thailand.
-background_image: /uploads/2015/sam-manns-379040-unsplash.jpg
+background_image:
 map:
   address: 'LOCATION TBA | Chiang Mai, Thailand'
-  zoom: 20
+  zoom: 10
   latitude: 18.788375
   longitude: 98.985855
 featured_brews:
@@ -105,7 +105,7 @@ _options:
 	A day to celebrate women! We will have different tracks of workshops and events going at the same time during the day, so it's a choose your adventure. It will all roll into a dance party with DJs!<br /><br />It's welcome to both men and women to attend, but will be completely run by women. It&rsquo;s an open and safe platform to share something close to our hearts and we hope you will join us.<br /><br />Workshop themes include: women entrepreneurship, business masterminds, singing tents, yoni egg workshops, dancing, and lots and lots of music and fun. Oh, and of course, glitter. 🦄🦄🦄<br /><br />What if we had a day where women were celebrated? What if we showcased our talents, interests, and desires? What if we had a day of fun and play? 🎉🎉🎉<br /><br />More info to come soon on tickets and details on the programming.&nbsp;<br /><br />Mark your calendars for this event!! *BOOK YOUR FLIGHTS*<br /><br />If you're interested in running a workshop or tent, message us for more details. This is your time, speak up!<br /><br />We are giddy with excitement for this and can't wait to share more details with you! xx
 </p>
 
-<h3 class="editable">
+<!-- <h3 class="editable">
 	Featured Acts
 </h3>
 <div class="gallery">
@@ -117,10 +117,10 @@ _options:
 			<p class="caption">{{ feature.title }}</p>
 		</a>
 	{% endfor %}
-</div>
+</div> -->
 
-<h3 class="editable">Get your tickets</h3>
-{{ site.eventbrite_embed }}
+<!-- <h3 class="editable">Get your tickets</h3>
+{{ site.eventbrite_embed }} -->
 
 <h3 class="editable">Tell your friends</h3>
 <div class="sharing">
@@ -136,12 +136,12 @@ _options:
 <div class="map" id="gmap_canvas"></div>
 <address><a href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{% include icons/place.svg %} {{ page.map.address }}</a></address>
 
-<h3 class="editable">Photos from 2015</h3>
+<!-- <h3 class="editable">Photos from 2015</h3>
 <div class="grid">
 	{% for photo in page.photos %}
 		<div class="grid-item"><a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}" /></a></div>
 	{% endfor %}
-</div>
+</div> -->
 
 <h3 class="editable">Contact</h3>
 <p class="editable">Send us a message with any questions about sponsoring the event, tickets or anything else.</p>
@@ -156,7 +156,7 @@ _options:
 	<label for="message">Message</label>
 	<textarea id="message" name="message"></textarea>
 
-	<input type="hidden" name="_to" value="contact@example.com" />
+	<input type="hidden" name="_to" value="lily@cnxweb.site" />
 	<input type="text" name="_gotcha" style="display: none;" />
 
 	<input type="submit" value="Send Message" />
