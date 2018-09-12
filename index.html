@@ -1,52 +1,52 @@
 ---
-title: Malt Festival
-start_datetime: 2016-11-10 9:00:00
+title: Bond Women's Festival
+start_datetime: 2016-11-10 09:00:00
 end_datetime: 2016-11-10 18:00:00
-timezone: America/Los_Angeles
-description: A fun filled day with friends and beer.
-background_image: /uploads/2015/12.jpeg
+timezone: Thailand (UTC+7)
+description: "A day to celebrate women! We will have different tracks of workshops and events going at the same time during the day, so it's a choose your adventure. It will all roll into a dance party with DJs!\n\nIt's welcome to both men and women to attend, but will be completely run by women. It’s an open and safe platform to share something close to our hearts and we hope you will join us.\n\nWorkshop themes include: women entrepreneurship, business masterminds, singing tents, yoni egg workshops, dancing, and lots and lots of music and fun. Oh, and of course, glitter. \U0001F984\U0001F984\U0001F984\n\nWhat if we had a day where women were celebrated? What if we showcased our talents, interests, and desires? What if we had a day of fun and play? \U0001F389\U0001F389\U0001F389\n\nMore info to come soon on tickets and details on the programming. \n\nMark your calendars for this event!! *BOOK YOUR FLIGHTS*\n\nIf you're interested in running a workshop or tent, message us for more details. This is your time, speak up!\n\nWe are giddy with excitement for this and can't wait to share more details with you! xx"
+background_image: /uploads/2015/elevate-755079-unsplash.jpg
 map:
-  address: 1 Market Street, San Francisco
+  address: '1 Market Street, San Francisco'
   zoom: 16
   latitude: 37.7938462
   longitude: -122.3970253
 featured_brews:
   - label_image: /uploads/beers/label-1.png
     title: Count Chocula
-    link: #
+    link:
   - label_image: /uploads/beers/label-2.png
     title: Professor Pope
-    link: #
+    link:
   - label_image: /uploads/beers/label-3.png
     title: Blazing Dog
-    link: #
+    link:
   - label_image: /uploads/beers/label-4.png
     title: Extravagant Bartender
-    link: #
+    link:
   - label_image: /uploads/beers/label-5.png
     title: Brain Sour
-    link: #
+    link:
   - label_image: /uploads/beers/label-6.png
     title: Chinchilla
-    link: #
+    link:
   - label_image: /uploads/beers/label-7.png
     title: Frosty Boots
-    link: #
+    link:
   - label_image: /uploads/beers/label-8.png
     title: Grape Pirate
-    link: #
+    link:
   - label_image: /uploads/beers/label-9.png
     title: Blue Bus
-    link: #
+    link:
   - label_image: /uploads/beers/label-10.png
     title: Orange Tank
-    link: #
+    link:
   - label_image: /uploads/beers/label-11.png
     title: Kangaroo
-    link: #
+    link:
   - label_image: /uploads/beers/label-12.png
     title: CloudCannon
-    link: #
+    link:
 photos:
   - image: /uploads/2015/1.jpeg
     title: Malt Festival 1
@@ -106,7 +106,7 @@ _options:
 	{% for feature in page.featured_brews %}
 		<a href="{% include relative-src.html src=feature.link %}">
 			<div class="inner-wrapper">
-				<img src="{% include relative-src.html src=feature.label_image %}" alt="{{ feature.title }}">
+				<img src="{% include relative-src.html src=feature.label_image %}" alt="{{ feature.title }}" />
 			</div>
 			<p class="caption">{{ feature.title }}</p>
 		</a>
@@ -133,7 +133,7 @@ _options:
 <h3 class="editable">Photos from 2015</h3>
 <div class="grid">
 	{% for photo in page.photos %}
-		<div class="grid-item"><a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}"/></a></div>
+		<div class="grid-item"><a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}" /></a></div>
 	{% endfor %}
 </div>
 
@@ -142,18 +142,18 @@ _options:
 
 <form method="post" action="{{ site.baseurl }}/index.html?submit=success">
 	<label for="email_address">Email Address</label>
-	<input id="email_address" type="text" name="email">
+	<input id="email_address" type="text" name="email" />
 
 	<label for="name">Name</label>
-	<input id="name" type="text" name="name">
+	<input id="name" type="text" name="name" />
 
 	<label for="message">Message</label>
 	<textarea id="message" name="message"></textarea>
 
-	<input type="hidden" name="_to" value="contact@example.com">
-	<input type="text" name="_gotcha" style="display: none;">
+	<input type="hidden" name="_to" value="contact@example.com" />
+	<input type="text" name="_gotcha" style="display: none;" />
 
-	<input type="submit" value="Send Message">
+	<input type="submit" value="Send Message" />
 </form>
 
 <script type="text/javascript">
