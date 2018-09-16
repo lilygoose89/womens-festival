@@ -14,7 +14,7 @@ logo: /siteicon.png
 description: Bond Women's Festival | Chiang Mai, Thailand
 author:
   name: Bond Women's Festival
-  email:
+  email: bb@bondworks.co
   twitter: # twitter username without the @ symbol
 social:
   name: Bond Women's Festival
@@ -28,15 +28,9 @@ timezone: UTC+7
 
 permalink: pretty
 
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
 
 defaults:
   -

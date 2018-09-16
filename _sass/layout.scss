@@ -1,12 +1,23 @@
 h1 img.logo {
-	width: 230px;
+	width: 260px;
 }
 
 .content {
-	background: rgba(0, 0, 0 ,0.5);
-	padding: 20px 40px;
+	background: rgba(56, 49, 56,0.9);
+	padding: 20px 140px;
 	text-align: center;
 	border-radius: 3px;
+}
+
+@media all and (max-width:768px) {
+	.content {
+		padding: 20px 60px;
+	}
+}
+@media all and (max-width:576px) {
+	.content {
+		padding: 20px 40px;
+	}
 }
 
 .map {
