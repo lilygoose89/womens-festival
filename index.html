@@ -137,8 +137,12 @@ _options:
 </div>
 
 <h3 class="editable">Location</h3>
-<div class="map" id="gmap_canvas"></div>
-<address><a href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{% include icons/place.svg %} {{ page.map.address }}</a></address>
+<!-- <div class="map" id="gmap_canvas"></div>
+<address><a href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{% include icons/place.svg %} {{ page.map.address }}</a></address> -->
+<div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60437.85494189217!2d98.95565328741769!3d18.781838578721207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6bf2838de804a854!2sPromenada+Chiang+Mai!5e0!3m2!1sen!2sth!4v1538989643792" width="600" height="450" frameborder="0" style="border:0; width: 100%; height: 440px; text-shadow: none; color: #333; border-radius: 3px;" allowfullscreen></iframe>
+</div>
+<address><a href="https://www.google.co.th/maps/place/Promenada+Chiang+Mai/@18.7659106,99.0366775,15z/data=!4m5!3m4!1s0x0:0x6bf2838de804a854!8m2!3d18.7659106!4d99.0366775" target="blank">{% include icons/place.svg %} {{ page.map.address }}</a></address>
 
 <!-- <h3 class="editable">Photos from 2015</h3>
 <div class="grid">
