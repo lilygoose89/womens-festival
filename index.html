@@ -4,12 +4,12 @@ start_datetime: 2019-01-19 10:00:00
 end_datetime: 2019-01-20 00:00:00
 timezone: Thailand (UTC+7)
 description: >-
-  A day to celebrate women featuring workshops, performances, music, dancing and
+  Featuring workshops, performances, music, dancing and
   festival fun in magical Chiang Mai, Thailand.
 background_image: /uploads/sam-manns-379040-unsplash.jpg
 map:
   address: Promenada Chiang Mai
-  zoom: 12
+  zoom_number: 12
   latitude: 18.7659106
   longitude: 99.0366775
 featured_brews:
@@ -176,7 +176,7 @@ _options:
 	function initMap() {
 		var myOptions = {
 			styles: [{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}],
-      zoom: window.mapData.zoom,
+      zoom: window.mapData.zoom_number,
 			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
 		};
 		var map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
